@@ -6,5 +6,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network 'private_network', ip: '192.168.51.42'
   config.vm.network 'public_network'
 
-  config.vm.provision 'shell', path: './private_dotfiles.sh'
+  config.vm.provision 'shell', path: './dotfiles.sh'
 end
