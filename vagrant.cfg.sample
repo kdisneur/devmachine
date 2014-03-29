@@ -1,0 +1,2 @@
+private_dotfiles_url='https://<username>:<password>@<git_url_containing_private_dotfiles>
+# dotfiles_tags=<list of tags> # default: perso
